@@ -31,7 +31,6 @@ python zero_shot_eval.py -m output/checkpoints/<run>_<timestamp> --max_tokens 51
 - **Outputs:**
   - TensorBoard logs and `train_metrics.jsonl` / `eval_metrics.jsonl` / `config.json` go to `output/tb/<loss>_L<len>[_tag]/<timestamp>/`.
   - Models go to `output/checkpoints/` (3.3 GB each).
-  - `../GStar-Assignment-3-GRPO-Solution/plot_results.py` makes the report plots.
 
 ## Acknowledgments
 
