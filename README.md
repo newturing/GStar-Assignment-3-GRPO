@@ -1,6 +1,6 @@
 # GRPO for Countdown
 
-In Assignment 2 you implement **GRPO** and **Dr.GRPO** and train `Qwen/Qwen3-1.7B` to solve Countdown problems: reach a target number using the given numbers and `+ - * /`.
+In this assignment you will implement **GRPO** and **Dr.GRPO** and train `Qwen/Qwen3-1.7B` to solve Countdown problems: reach a target number using the given numbers and `+ - * /`.
 
 The handout is `gstar_assignment2.pdf`.
 
@@ -35,4 +35,4 @@ python zero_shot_eval.py -m output/checkpoints/<run>_<timestamp> --max_tokens 51
 
 ## Acknowledgments
 
-We are grateful to TinyZero for the Countdown task and to the Stanford CS336 staff for Assignment 5, which served as a basis for this project. The rollout engine builds on Jonathan Chang's [flex-nano-vllm](https://github.com/changjonathanc/flex-nano-vllm) (MIT License; see `THIRD_PARTY_NOTICES.md`).
+We are grateful to [TinyZero](https://github.com/Jiayi-Pan/TinyZero) for the Countdown task and to the Stanford CS336 staff for Assignment 5, which served as a basis for this project. The rollout engine builds on Jonathan Chang's [flex-nano-vllm](https://github.com/changjonathanc/flex-nano-vllm) (MIT License; see `THIRD_PARTY_NOTICES.md`).
