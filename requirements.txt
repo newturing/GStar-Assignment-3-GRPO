@@ -1,0 +1,9 @@
+# Python 3.11, CUDA 12.8 wheels (install with setup_env.sh). torch 2.7.1 ships Triton 3.3.1, which compiles the
+# FlexAttention kernels on A100 (sm_80), H100/H200 (sm_90) and RTX PRO 6000 (sm_120).
+torch==2.7.1
+transformers==4.51.3
+datasets==5.0.1
+pyarrow==26.0.0
+numpy==2.2.6
+tensorboard
+matplotlib
