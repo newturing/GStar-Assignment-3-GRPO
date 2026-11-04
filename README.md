@@ -2,7 +2,7 @@
 
 In this assignment you will implement **GRPO** and **Dr.GRPO** and train `Qwen/Qwen3-1.7B` to solve Countdown problems: reach a target number using the given numbers and `+ - * /`.
 
-The handout is `gstar_assignment2.pdf`.
+The handout is `gstar_assignment3.pdf`.
 
 ## Setup
 
